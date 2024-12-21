@@ -2,6 +2,6 @@
 - hosts: localhost
   tasks:
     - name: install httpd
-      yum:
-        name: httpd
+      apt:
+        name: apache2
         state: present
