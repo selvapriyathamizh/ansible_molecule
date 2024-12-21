@@ -15,6 +15,7 @@ provisioner:
 scenario:
    test_sequence: 
      - converge
+     - verify
 verifier:
    name: ansible
 
