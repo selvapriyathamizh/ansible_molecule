@@ -2,6 +2,5 @@
 - name: Converge
   hosts: all
   gather_facts: false
-  tasks:
-     - import_playbook: ../../main.yml
+- import_playbook: ../../main.yml
 
